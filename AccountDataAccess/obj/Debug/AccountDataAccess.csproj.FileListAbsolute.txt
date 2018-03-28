@@ -1,0 +1,12 @@
+G:\hoctap\Csharp\ABIExam\Webapi\AccountDataAccess\bin\Debug\AccountDataAccess.dll.config
+G:\hoctap\Csharp\ABIExam\Webapi\AccountDataAccess\bin\Debug\AccountDataAccess.dll
+G:\hoctap\Csharp\ABIExam\Webapi\AccountDataAccess\bin\Debug\AccountDataAccess.pdb
+G:\hoctap\Csharp\ABIExam\Webapi\AccountDataAccess\bin\Debug\EntityFramework.dll
+G:\hoctap\Csharp\ABIExam\Webapi\AccountDataAccess\bin\Debug\EntityFramework.SqlServer.dll
+G:\hoctap\Csharp\ABIExam\Webapi\AccountDataAccess\bin\Debug\EntityFramework.xml
+G:\hoctap\Csharp\ABIExam\Webapi\AccountDataAccess\bin\Debug\EntityFramework.SqlServer.xml
+G:\hoctap\Csharp\ABIExam\Webapi\AccountDataAccess\obj\Debug\AccountDataAccess.csprojResolveAssemblyReference.cache
+G:\hoctap\Csharp\ABIExam\Webapi\AccountDataAccess\obj\Debug\AccountDataAccess.csproj.CoreCompileInputs.cache
+G:\hoctap\Csharp\ABIExam\Webapi\AccountDataAccess\obj\Debug\AccountDataAccess.csproj.CopyComplete
+G:\hoctap\Csharp\ABIExam\Webapi\AccountDataAccess\obj\Debug\AccountDataAccess.dll
+G:\hoctap\Csharp\ABIExam\Webapi\AccountDataAccess\obj\Debug\AccountDataAccess.pdb
