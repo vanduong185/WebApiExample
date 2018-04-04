@@ -1,0 +1,14 @@
+G:\hoctap\Csharp\ABIExam\Webapi\Interface\bin\Debug\Interface.exe.config
+G:\hoctap\Csharp\ABIExam\Webapi\Interface\bin\Debug\Interface.exe
+G:\hoctap\Csharp\ABIExam\Webapi\Interface\bin\Debug\Interface.pdb
+G:\hoctap\Csharp\ABIExam\Webapi\Interface\obj\Debug\Interface.csprojResolveAssemblyReference.cache
+G:\hoctap\Csharp\ABIExam\Webapi\Interface\obj\Debug\Interface.Login.resources
+G:\hoctap\Csharp\ABIExam\Webapi\Interface\obj\Debug\Interface.Properties.Resources.resources
+G:\hoctap\Csharp\ABIExam\Webapi\Interface\obj\Debug\Interface.csproj.GenerateResource.cache
+G:\hoctap\Csharp\ABIExam\Webapi\Interface\obj\Debug\Interface.csproj.CoreCompileInputs.cache
+G:\hoctap\Csharp\ABIExam\Webapi\Interface\obj\Debug\Interface.exe
+G:\hoctap\Csharp\ABIExam\Webapi\Interface\obj\Debug\Interface.pdb
+G:\hoctap\Csharp\ABIExam\Webapi\Interface\bin\Debug\System.Net.Http.Formatting.dll
+G:\hoctap\Csharp\ABIExam\Webapi\Interface\bin\Debug\Newtonsoft.Json.dll
+G:\hoctap\Csharp\ABIExam\Webapi\Interface\obj\Debug\Interface.csproj.CopyComplete
+G:\hoctap\Csharp\ABIExam\Webapi\Interface\obj\Debug\Interface.Begin.resources

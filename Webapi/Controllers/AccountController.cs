@@ -16,5 +16,13 @@ namespace Webapi.Controllers
                 return entities.accounts.ToList();
             }
         }
+
+        public account GetAccount(string username)
+        {
+            using (AccountsEntities entities = new AccountsEntities())
+            {
+                return entities.accounts.FirstOrDefault(e => e.username == username);
+            }
+        }
     }
 }

@@ -5,10 +5,41 @@
       <PropertyRef Name="ID" />
     </Key>
     <Property Name="ID" Type="int" Nullable="false" />
-    <Property Name="username" Type="nchar" MaxLength="10" Nullable="false" />
-    <Property Name="password" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="username" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="password" Type="varchar" MaxLength="10" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'Accounts.dbo.profile' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="profile">
+    <Key>
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="name" />
+      <PropertyRef Name="identityNumber" />
+      <PropertyRef Name="birthday" />
+      <PropertyRef Name="address" />
+      <PropertyRef Name="nation" />
+      <PropertyRef Name="religion" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="identityNumber" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="birthday" Type="date" Nullable="false" />
+    <Property Name="address" Type="varchar" MaxLength="150" Nullable="false" />
+    <Property Name="nation" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="religion" Type="varchar" MaxLength="50" Nullable="false" />
   </EntityType>
   <EntityContainer Name="AccountsModelStoreContainer">
     <EntitySet Name="account" EntityType="Self.account" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="profile" EntityType="Self.profile" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [profile].[ID] AS [ID], 
+    [profile].[name] AS [name], 
+    [profile].[identityNumber] AS [identityNumber], 
+    [profile].[birthday] AS [birthday], 
+    [profile].[address] AS [address], 
+    [profile].[nation] AS [nation], 
+    [profile].[religion] AS [religion]
+    FROM [dbo].[profile] AS [profile]</DefiningQuery>
+    </EntitySet>
   </EntityContainer>
 </Schema>

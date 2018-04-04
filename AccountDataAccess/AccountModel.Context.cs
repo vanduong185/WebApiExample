@@ -26,5 +26,6 @@ namespace AccountDataAccess
         }
     
         public virtual DbSet<account> accounts { get; set; }
+        public virtual DbSet<profile> profiles { get; set; }
     }
 }

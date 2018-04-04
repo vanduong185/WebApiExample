@@ -5,7 +5,8 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="e9255e29d2c141c78d29c6f7a031b4eb" Name="Diagram1">
-        <EntityTypeShape EntityType="AccountsModel.account" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccountsModel.account" Width="1.5" PointX="1.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccountsModel.profile" Width="1.5" PointX="4.875" PointY="1.125" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

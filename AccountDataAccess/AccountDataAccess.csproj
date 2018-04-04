@@ -67,6 +67,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>AccountModel.edmx</DependentUpon>
     </Compile>
+    <Compile Include="profile.cs">
+      <DependentUpon>AccountModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
